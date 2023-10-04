@@ -9,6 +9,6 @@
 
 ### Referencia do montagem do profile se encontra ao cliclar no Emoji:
 
-[![Emoji_1f600 svg](https://github.com/GabrielFernandoS/My-Profile/assets/122811677/e6f296a3-f763-48cd-b668-7685e827eccb)](https://www.youtube.com/watch?v=np3L1lb-Uvs)
+[![Emoji_1f600 svg](imagens/perfil.jpg)](https://www.youtube.com/watch?v=np3L1lb-Uvs)
 
 
