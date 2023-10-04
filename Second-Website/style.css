@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Permanent+Marker&family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body {
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.profile-card {
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: #fff;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    position: relative;
+    
+}
+
+.profile-card::before {
+
+    content: '';
+    position: absolute;
+    height: 36%;
+    width: 100%;
+    border-radius: 24px 24px 0 0;
+    background-color: #f53131;
+    top: 0;
+    left: 0;
+    
+}
+
+.image{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #9ea537;
+    padding: 3px;
+    margin-bottom: 10px;
+
+}
+
+.image .profile-img {
+    
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    
+
+}   
+
+.profile-card .text-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+
+.text-data .job {
+    font-size: 15px ;
+    font-weight: 400;
+
+}
+
+.text-data .name {
+    font-size: 22px ;
+    font-weight: 500;
+
+}
+
+.profile-card .median-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.median-buttons .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8px;
+    font-size: 18px;
+    color: #fff;
+    width: 34px;
+    height: 34px;
+    background-color: #f53131;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 2px 2px 3px rgb(41, 40, 40);
+
+}
+
+.profile-card .buttons {
+    
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    
+}
+
+.buttons .button {
+
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0 15px;
+    border: none;
+    background: #f53131;
+    border-radius: 24px;
+    padding: 8px 24px;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px rgb(41, 40, 40);
+}
+
+.button:active {
+    transform: translateY(4px);
+}
+
+.profile-card .analytics{
+    display: flex;
+    align-items: center;
+    color: #333;
+    margin-top: 25px;
+}
+
+.analytics .data{
+    padding: 0 20px;
+    border-right: 2px solid #7c7c7c;
+}
+
+.data i {
+    font-size: 18px;
+    margin-right: 6px;
+}
+
+.data:last-child {
+    border-right: none;
+}
