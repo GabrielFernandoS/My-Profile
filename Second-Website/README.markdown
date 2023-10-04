@@ -11,4 +11,4 @@
 
 [![Emoji_1f600 svg](imagens/perfil.jpg)](https://www.youtube.com/watch?v=np3L1lb-Uvs)
 
-
+<img src="imagens/perfil.jpg" alt="" style="width:50%">
